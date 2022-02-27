@@ -43,7 +43,7 @@ DEBUG = True
 #DEBUG = env('DEBUG')
 
 
-ALLOWED_HOSTS = ['localhost','hen-con-engineering-company.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost','henconengineer.herokuapp.com']
 
 
 
