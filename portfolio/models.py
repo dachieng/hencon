@@ -1,6 +1,3 @@
-from distutils.command.upload import upload
-from pyexpat import model
-from turtle import title
 from django.db import models
 
 class Mandate(models.Model):
