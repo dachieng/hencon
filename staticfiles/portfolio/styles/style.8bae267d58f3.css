@@ -202,7 +202,7 @@ hr.hr{
 }
 
 div#contact-us{
-    background-image:linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/static/portfolio/images/road.jpg);
+    background-image:linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/static/portfolio/images/road.3405680936a7.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
