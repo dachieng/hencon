@@ -32,6 +32,7 @@ body{
 
 nav.navbar.navbar-expand-lg{
     background-color: #000;
+    width: 100%;
     min-height: 10vh;
 }
 
