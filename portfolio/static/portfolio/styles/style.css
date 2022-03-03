@@ -17,7 +17,9 @@ div.card{
     margin: 20px;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 *{
    /* font-family: 'Inter', sans-serif;*/
@@ -31,6 +33,10 @@ div.card{
 nav.navbar.navbar-expand-lg{
     background-color: #000;
     min-height: 10vh;
+}
+
+#carouselExampleControls{
+    width: 100%;
 }
 
 .carousel-item img{
