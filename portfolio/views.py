@@ -6,14 +6,14 @@ from portfolio.forms import EmailUs
 from django.core.mail import send_mail
 
 def index(request):
-    company = "Hen'Com"
+    company = "Hen'Con"
     mandate = Mandate.objects.all()
     portfolio = Portfolio.objects.all()
 
     if request.method == "POST":
         form = EmailUs(request.POST)
         if form.is_valid():
-            subject = "Welcome to Hen'Com"
+            subject = "Welcome to Hen'Con"
             sender = form.cleaned_data.get("email")
             message = 'Hope you enjoy our services. Contact us for more information'
             send_mail(subject, 
